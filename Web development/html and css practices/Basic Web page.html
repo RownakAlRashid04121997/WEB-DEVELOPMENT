@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML basic web page</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="Basic-Web-Page-assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Basic-Web-Page-assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Basic-Web-Page-assets/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="Basic-Web-Page-assets/favicon_io/site.webmanifest">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"> <!--importing plugin corosel from flickity-->
+    <link rel="stylesheet" href="Basic Web page.css">
+</head>
+<body>
+    <header>
+        <div class="banner"></div>
+    </header>
+    <nav>
+        <a href="#" class="menu-btn">Home</a>
+        <a href="#" class="menu-btn">About</a>
+        <a href="#" class="menu-btn">Cources</a>
+        <a href="#" class="menu-btn">Study materials</a>
+        <a href="#" class="flex-align-left">login/sign up</a>
+    </nav>
+    <main>
+        <section>
+            <h2><span>Courses</span></h2>
+            <div class="carousel" data-flickity='{ "autoPlay": true }'> <!--Using carousel auto plugin-->
+                <div class="carousel-cell"><iframe width="80%" height="400" src="https://www.youtube.com/embed/Rek0NWPCNOc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="carousel-cell"><iframe width="80%" height="400" src="https://www.youtube.com/embed/jRAZlTEZi9I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="carousel-cell"><iframe width="80%" height="400" src="https://www.youtube.com/embed/61ppyY5rUB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="carousel-cell"><iframe width="80%" height="400" src="https://www.youtube.com/embed/61ppyY5rUB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                <div class="carousel-cell"><iframe width="80%" height="400" src="https://www.youtube.com/embed/61ppyY5rUB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              </div>
+
+        </section>
+
+        <section>
+            <h2><span>Study materials</span></h2>
+            <div class="carousel2" data-flickity='{ "wrapAround": true }'> <!--Using wrap around plugin-->
+                <div class="carousel-cell2"><a href="Basic-Web-Page-assets/Html article.pdf" target="blank"><img src="Basic-Web-Page-assets/html logo.png" alt="" width="24%" height="60%"></a></div>
+                <div class="carousel-cell2"><a href="Basic-Web-Page-assets/Html article.pdf" target="blank"><img src="Basic-Web-Page-assets/html logo.png" alt="" width="24%" height="60%"></a></div>
+                <div class="carousel-cell2"><a href="Basic-Web-Page-assets/Html article.pdf" target="blank"><img src="Basic-Web-Page-assets/html logo.png" alt="" width="24%" height="60%"></a></div>
+                <div class="carousel-cell2"><a href="Basic-Web-Page-assets/Html article.pdf" target="blank"><img src="Basic-Web-Page-assets/html logo.png" alt="" width="24%" height="60%"></a></div>
+                <div class="carousel-cell2"><a href="Basic-Web-Page-assets/Html article.pdf" target="blank"><img src="Basic-Web-Page-assets/html logo.png" alt="" width="24%" height="60%"></a></div>
+            </div>
+           
+           
+           
+            
+        </section>
+
+        <section>
+            <h2>
+             <span>Founder of html</span>   
+            </h2>
+            <image class="profile-img" src="Basic-Web-Page-assets/TIM BERNERS-LEE.jpg"></image>
+            <h3 class="profile-name">Sir Tim Berners Lee</h3>
+            <div class="link">
+                <a href="https://www.youtube.com/watch?v=u0OeZfIfBRI" target="_blank" rel="noopener noreferrer">Watch html in youtube</a>
+            </div>
+           
+            <h5 class="Berner">Tim Berners-Lee, in full Sir Tim Berners-Lee, (born June 8, 1955, London, England), British computer scientist, 
+                generally credited as the inventor of the World Wide Web. In 2004 he was awarded a knighthood by
+                 Queen Elizabeth II of the United Kingdom and the inaugural Millennium Technology Prize (€1 million) 
+                 by the Finnish Technology Award Foundation.</h5>
+        </section>
+    </main>
+
+    <footer>
+        <a href="#">FAQ</a>
+        <a href="#">Contact us</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of use</a>
+        <a href="#">Refund policy</a>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    
+</body>
+</html>

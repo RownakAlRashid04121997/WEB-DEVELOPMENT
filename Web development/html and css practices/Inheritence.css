@@ -1,0 +1,33 @@
+ul#drinks li.favourite{  /*Practising speceficity*/
+    color: rgb(248, 7, 7);
+    font-weight:bold ;
+}
+
+ul#drinks li{
+    font-size: 22px;
+    color: black;
+    font-weight: normal;
+}
+
+body{
+    color: black;
+}
+
+.class-1 a{    /*Inheritance practise*/
+    color: inherit;
+
+}
+
+.class-2 a{    /*Shows black because the default value/color of the browser is black*/
+    color: initial; 
+
+}
+
+.class-3 a{
+    color: unset;
+
+}
+.important{     /*Using important maximizes the sepeceficity*/
+    color: green !important;
+
+}

@@ -1,0 +1,34 @@
+div.lorem{
+    padding: 40px 10px 20px 30px; /*Padding top right bottom left*/
+    border: 10px solid black;
+    margin: 20px;
+
+}
+
+
+div.container{
+    background-color: yellow;
+    height: 300px;
+    width: 400px;
+    padding: 20px 10px 20px 30px;
+    border: 10px solid black;
+    margin: 10px;
+}
+
+.box1,.box2{
+    background-color: green;
+    text-align: center;
+    height: 45%; /*Will be 45% of parent's height*/
+    width: 50%;
+    border: 5px solid black;
+    
+}
+
+
+.box1{
+   margin: 0px 0px 6px 0px;  /*margin top right bottom left*/
+}
+
+.box2{
+    margin: 0px 0px 5px 0px;
+}

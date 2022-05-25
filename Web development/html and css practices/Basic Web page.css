@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: white;
+}
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+nav {
+    display: flex; /*using flexbox*/
+    background-color: #333;
+ 
+}
+
+nav a { 
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+
+main {
+    background-color: white;
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+}
+
+section:nth-child(even) {
+    background-color: rgb(241, 241, 241);
+}
+
+section {
+    text-align: center;
+    padding: 75px 0px;
+    min-height: 40vh;
+    height: 100%;
+}
+
+video {
+    padding: 10px;
+}
+
+img {
+    padding: 10px;
+}
+
+section h5 {
+    margin: 40px;
+}
+
+footer {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+.banner{
+    background-image: url(Basic-Web-Page-assets/html.gif);
+    height: 20vw;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 60%;
+    background-attachment: fixed;
+
+}
+
+.flex-align-left{
+    margin-left: auto;
+}
+
+
+.menu-btn:hover{
+    background-color: white;
+    color: black;
+}
+
+section h2 span{
+    background: linear-gradient(90deg, rgba(246,3,32,1) 0%, rgba(240,240,246,1) 48%, rgba(249,4,58,1) 100%);
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+  
+.carousel-cell {   /*this carousel is for autoplay*/
+    width: 100%;
+    margin-right: 10px;
+    border-radius: 5px;
+
+    position: relative;    /*for making the iframe responsive*/
+    padding-bottom: 56.25%; /* 16:9 */ /*for making the iframe responsive*/
+    padding-top: 25px; /*for making the iframe responsive*/
+
+}
+
+.carousel-cell iframe {  /*used for autoplay carousel*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+  
+.carousel-cell2 {      /*this carousel is for wraparound*/
+    width: 66%;
+    margin-right: 10px;
+    background: white;  /*Did background white because the image is png,also can change the background color in img section*/
+    border-radius: 5px;
+}
+
+.carousel-cell2 img{   /*used in wraparound carousel ,the image used is a png image*/
+    height: 60%;     
+    width: 60%;
+
+}
+
+
+.profile-img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+
+}
+
+.profile-name{
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    text-transform: uppercase;
+    margin: 20px 0px 30px 40px;
+
+}
+
+
+.link a{
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 5px;
+}
+
+
+.Berner{
+    color: black;
+    font-weight: 900;
+    padding-bottom: 10px 0px;
+
+}
+
+
+@media screen and (max-width:550px) {
+    footer,nav{
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    .flex-align-left{
+        margin-left: 0;
+    }   
+    
+}
+  
+
+
+

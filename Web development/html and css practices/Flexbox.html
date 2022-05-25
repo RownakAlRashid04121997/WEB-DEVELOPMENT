@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box practise</title>
+</head>
+
+<style>
+
+    .flex-container{
+        display: flex;
+        width: 100%;
+        height: 500px;
+        border: 2px solid slateblue;
+        flex-wrap: wrap;
+        align-content: center;
+
+    }
+
+    .flex-item{
+        width: 75px;
+        height: 75px;
+        background-color: lightblue;
+        border: 5px solid black;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        line-height: 1.4;
+        font-size: 2em;
+    }
+
+
+    #flex-item-1{
+        background-color: red;
+    }
+
+    #flex-item-2{
+        background-color: blue;
+    }
+
+    #flex-item-3{
+        background-color: green;
+    }
+
+    #flex-item-4{
+        background-color: yellow;
+    }
+
+    #flex-item-5{
+        background-color: brown;
+    }
+</style>
+<body>
+    <div class="flex-container">
+        <div class="flex-item" id="flex-item-1">1</div>
+        <div class="flex-item" id="flex-item-2">2</div>
+        <div class="flex-item" id="flex-item-3">3</div>
+        <div class="flex-item" id="flex-item-4">4</div>
+        <div class="flex-item" id="flex-item-5">5</div>
+        <div class="flex-item" id="flex-item-6">6</div>
+        <div class="flex-item" id="flex-item-7">7</div>
+        <div class="flex-item" id="flex-item-8">8</div>
+    </div>
+</body>
+</html>
