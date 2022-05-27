@@ -6,7 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM basic</title>
 </head>
+
+<style>
+    button{
+        background-color: yellow;
+        padding: 10px;
+        margin: 30px ;
+        border: 5px solid black;
+        width: 200px;
+        height: 50px;
+    }
+</style>
+
 <body>
+    <button>Country</button>
+    <script>
+        let btnCntry= document.querySelector('button');
+        btnCntry.addEventListener('click',County_name);
+
+
+        function County_name(){
+            let cntry= prompt('Enter name of the country');
+            btnCntry.textContent= 'Name of the country is  '+cntry;
+        }
+    </script>
+
     
 </body>
 </html>
