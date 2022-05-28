@@ -45,6 +45,11 @@ for(let nameKey in names){
 }
 
 
+for(names1 of names){  /*For.....of loop*/
+    console.log(names1)
+}
+
+
 
 
 
